@@ -103,10 +103,13 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 14px 20px;
-    transition: 0.1s;
+    transition-duration: 1s;
+    transition-property: scale;
+    scale: 0.9;
 }
 
 .task:hover{
+    scale: 1;
     background-color: rgb(227, 227, 227);
     border-radius: 16px;
     border: none;
